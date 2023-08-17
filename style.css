@@ -1,0 +1,22 @@
+#container{
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+}
+#FIRSTNAME{
+
+}
+#LASTNAME{
+
+}
+#firstNameBox{
+    width: 10px;
+}
+#lastNameBox{
+    width: 100px;
+    padding-right: 75px;
+}
+#nameBoxes{
+    display: flex;
+    border-radius: 100px;
+}
