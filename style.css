@@ -1,22 +1,98 @@
-#container{
+#form{
     display: flex;
-    justify-content: space-between;
+    background-color: rgb(255, 0, 0);
+    width: 200px;
+    height: 450px;
+}
+#LASTnames{
+    padding-left: 10px;
+}
+#TEXT{
+    font-size: 10px;
     font-weight: bold;
 }
 #FIRSTNAME{
-
+    font-size: 10px;
+    font-weight: bold;
 }
 #LASTNAME{
-
+    font-size: 10px;
+    font-weight: bold;
 }
-#firstNameBox{
-    width: 10px;
-}
-#lastNameBox{
-    width: 100px;
-    padding-right: 75px;
+#EMAIL{
+    font-size: 10px;
+    font-weight: bold;
+    padding: 10px;
 }
 #nameBoxes{
     display: flex;
-    border-radius: 100px;
+    justify-content: space-between;
+    padding: 10px;
+}
+#emailTextBox{
+    width: 170px;
+}
+#firstNameBox{
+    display: flex;
+    width: 75px;
+}
+#lastNameBox{
+    display: flex;
+    width: 75px;
+}
+#messageTextBox{
+    width: 170px;
+}
+#MESSAGE{
+    font-size: 10px;
+    font-weight: bold;
+    padding: 10px;
+}
+#detailsTextBox{
+    width: 170px;
+    height: 50px;
+}
+#DETAILS{
+    font-size: 10px;
+    font-weight: bold;
+    padding: 10px;
+}
+#sendBtn{
+    width: 178px;
+    font-size: 10px;
+    font-weight: bold;
+    padding: 5px;
+}
+#btnContainer{
+    padding: 10px;
+}
+#confirmText{
+    padding-top: 2px;
+    font-size: 9px;
+    font-weight: bold;
+}
+#confirmContainer{
+    display: flex;
+    padding: 10px;
+}
+#check{
+    width: 15px;
+}
+hr.solid {
+    border-top: 0px solid #bbb;
+    width: 170px;
+}
+#contactContainer{
+    display: flex;
+    font-size: 9px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+}
+#contactText{
+    padding-top: 2px;
+}
+#CI{
+    padding-bottom: 5px;
+    padding-left: 10px;
+    font-size: 15px;
 }
