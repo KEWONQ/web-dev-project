@@ -1,98 +1,98 @@
 #form{
     display: flex;
     background-color: rgb(255, 0, 0);
-    width: 200px;
-    height: 450px;
+    width: 400px;
+    height: 900px;
 }
 #LASTnames{
-    padding-left: 10px;
+    padding-left: 20px;
 }
 #TEXT{
-    font-size: 10px;
+    font-size: 20px;
     font-weight: bold;
 }
 #FIRSTNAME{
-    font-size: 10px;
+    font-size: 20px;
     font-weight: bold;
 }
 #LASTNAME{
-    font-size: 10px;
+    font-size: 20px;
     font-weight: bold;
 }
 #EMAIL{
-    font-size: 10px;
+    font-size: 20px;
     font-weight: bold;
-    padding: 10px;
+    padding: 20px;
 }
 #nameBoxes{
     display: flex;
     justify-content: space-between;
-    padding: 10px;
+    padding: 20px;
 }
 #emailTextBox{
-    width: 170px;
+    width: 340px;
 }
 #firstNameBox{
     display: flex;
-    width: 75px;
+    width: 150px;
 }
 #lastNameBox{
     display: flex;
-    width: 75px;
+    width: 150px;
 }
 #messageTextBox{
-    width: 170px;
+    width: 340px;
 }
 #MESSAGE{
-    font-size: 10px;
+    font-size: 20px;
     font-weight: bold;
-    padding: 10px;
+    padding: 20px;
 }
 #detailsTextBox{
-    width: 170px;
-    height: 50px;
+    width: 340px;
+    height: 100px;
 }
 #DETAILS{
-    font-size: 10px;
+    font-size: 20px;
     font-weight: bold;
-    padding: 10px;
+    padding: 20px;
 }
 #sendBtn{
-    width: 178px;
-    font-size: 10px;
+    width: 356px;
+    font-size: 20px;
     font-weight: bold;
-    padding: 5px;
-}
-#btnContainer{
     padding: 10px;
 }
+#btnContainer{
+    padding: 20px;
+}
 #confirmText{
-    padding-top: 2px;
-    font-size: 9px;
+    padding-top: 4px;
+    font-size: 18px;
     font-weight: bold;
 }
 #confirmContainer{
     display: flex;
-    padding: 10px;
+    padding: 20px;
 }
 #check{
-    width: 15px;
+    width: 30px;
 }
 hr.solid {
     border-top: 0px solid #bbb;
-    width: 170px;
+    width: 340px;
 }
 #contactContainer{
     display: flex;
-    font-size: 9px;
-    padding-left: 10px;
-    padding-bottom: 5px;
+    font-size: 18px;
+    padding-left: 20px;
+    padding-bottom: 10px;
 }
 #contactText{
-    padding-top: 2px;
+    padding-top: 4px;
 }
 #CI{
-    padding-bottom: 5px;
-    padding-left: 10px;
-    font-size: 15px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    font-size: 30px;
 }
