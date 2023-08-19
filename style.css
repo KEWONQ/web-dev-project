@@ -116,6 +116,7 @@
 }
 #detailsTextBox{
     vertical-align: top;
+    resize: none;
     font-family: 'Inter', sans-serif;
     border-radius: 5px;
     border-color: #dfdfdf;
