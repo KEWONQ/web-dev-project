@@ -10,74 +10,76 @@
 <body>
     <div id="All">
         <div id="form">
-            <div id="container">
-                
-                <div id="inputContainer">
-                    <div id="nameBoxes">
-                        <div id="FIRSTnames">
-                            <div id="FIRSTNAME">FIRST NAME
+            <div id="positioning">
+                <div id="container">
+                    <img src="Images/Logo_Banner.png" id="logoBanner">
+                    <div id="inputContainer">
+                        <div id="nameBoxes">
+                            <div id="FIRSTnames">
+                                <div id="FIRSTNAME">FIRST NAME
+                                    <div id="asterisk" style="color: #ff0000;"> *</div>
+                                </div>
+                                <div><input type="text" id="firstNameBox" required></div>
+                            </div>
+                            <div id="LASTnames">
+                                <div id="LASTNAME">LAST NAME
+                                    <div id="asterisk" style="color: #ff0000;"> *</div>
+                                </div>
+                                <div><input type="text" id="lastNameBox" required></div>
+                            </div>
+                        </div>
+                        <div id="EMAIL">
+                            <div id="email">EMAIL
                                 <div id="asterisk" style="color: #ff0000;"> *</div>
                             </div>
-                            <div><input type="text" id="firstNameBox" required></div>
+                            <div><input type="text"  id="emailTextBox" required></div>
                         </div>
-                        <div id="LASTnames">
-                            <div id="LASTNAME">LAST NAME
+                        <div id="MESSAGE">
+                            <div id="message">MESSAGE
                                 <div id="asterisk" style="color: #ff0000;"> *</div>
                             </div>
-                            <div><input type="text" id="lastNameBox" required></div>
+                            <div><input type="text"  id="messageTextBox" required></div>
                         </div>
-                    </div>
-                    <div id="EMAIL">
-                        <div id="email">EMAIL
-                            <div id="asterisk" style="color: #ff0000;"> *</div>
-                        </div>
-                        <div><input type="text"  id="emailTextBox" required></div>
-                    </div>
-                    <div id="MESSAGE">
-                        <div id="message">MESSAGE
-                            <div id="asterisk" style="color: #ff0000;"> *</div>
-                        </div>
-                        <div><input type="text"  id="messageTextBox" required></div>
-                    </div>
-                    <div id="DETAILS">
-                        <div id="details">ADDITIONAL DETAILS</div>
-                        <div>
-                            <textarea id="detailsTextBox"></textarea>
-                        </div>
-                    </div>
-                </div>
-                <div id="btnContainer">
-                    <button id="sendBtn">Send Message</button>
-                </div>
-                    <div id="conContainer">
-                        <div id="confirmContainer">
-                        <img src="Images/Check_ring_light.png" id="tick" onclick="toggleImage()">
-                        <div id="confirmText">I agree to be contacted via my request.</div>
-                    </div>
-                </div>
-                <div id="divContainer">
-                    <div id="divider"></div>
-                </div>
-                    <div id="ciAll">
-                        <div id="CI">
-                            Contact Information
-                        </div>
-                        <div id="contactContainer">
-                            <div id="contactInfo"></div>
-                            <img src="Images/Pin.png" id="check">
-                            <div id="contactText">
-                                <a href="https://www.google.com/maps/place/Bali+mushrooms/@-8.6399342,115.1873659,17z/data=!3m1!4b1!4m6!3m5!1s0x2dd239796d9054f3:0xb185c3c82e410245!8m2!3d-8.6399342!4d115.1873659!16s%2Fg%2F11k4jxc4x3?hl=en-GB&entry=ttu" target="_blank">Bali Street, Bali Indonesia</a>
+                        <div id="DETAILS">
+                            <div id="details">ADDITIONAL DETAILS</div>
+                            <div>
+                                <textarea id="detailsTextBox"></textarea>
                             </div>
                         </div>
-                        <div id="contactContainer">
-                            <div id="contactInfo"></div>
-                            <img src="Images/Phone.png" id="check">
-                            <div id="contactText">+62 877-5223-0828 +62881-0822-65439</div>
+                    </div>
+                    <div id="btnContainer">
+                        <button id="sendBtn">Send Message</button>
+                    </div>
+                        <div id="conContainer">
+                            <div id="confirmContainer">
+                            <img src="Images/Check_ring_light.png" id="tick" onclick="toggleImage()">
+                            <div id="confirmText">I agree to be contacted via my request.</div>
                         </div>
-                        <div id="contactContainer">
-                            <div id="contactInfo"></div>
-                            <img src="Images/Message.png" id="check">
-                            <div id="contactText">Example@testmail.com</div>
+                    </div>
+                    <div id="divContainer">
+                        <div id="divider"></div>
+                    </div>
+                        <div id="ciAll">
+                            <div id="CI">
+                                Contact Information
+                            </div>
+                            <div id="contactContainer">
+                                <div id="contactInfo"></div>
+                                <img src="Images/Pin.png" id="check">
+                                <div id="contactText">
+                                    <a href="https://www.google.com/maps/place/Bali+mushrooms/@-8.6399342,115.1873659,17z/data=!3m1!4b1!4m6!3m5!1s0x2dd239796d9054f3:0xb185c3c82e410245!8m2!3d-8.6399342!4d115.1873659!16s%2Fg%2F11k4jxc4x3?hl=en-GB&entry=ttu" target="_blank">Bali Street, Bali Indonesia</a>
+                                </div>
+                            </div>
+                            <div id="contactContainer">
+                                <div id="contactInfo"></div>
+                                <img src="Images/Phone.png" id="check">
+                                <div id="contactText">+62 877-5223-0828 +62881-0822-65439</div>
+                            </div>
+                            <div id="contactContainer">
+                                <div id="contactInfo"></div>
+                                <img src="Images/Message.png" id="check">
+                                <div id="contactText">Example@testmail.com</div>
+                        </div>
                     </div>
                 </div>
             </div>

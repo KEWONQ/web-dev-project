@@ -4,6 +4,7 @@
     padding: 20px;
 }
 #form{
+    position: relative;
     font-family: 'Inter', sans-serif;
     display: flex;
     background-color: #FFFFFF;
@@ -14,7 +15,7 @@
     height: 900px;
 }
 #inputContainer{
-    padding-top: 20px;
+    padding-top: 80px;
     padding-left: 5px;
     padding-right: 20px;
 }
@@ -237,4 +238,11 @@
 }
 #contactText a:hover {
     color: #5387d4;
+}
+#logoBanner{
+    border-radius: 5px;
+    position: absolute;
+    top: 1;
+    left: 4000000;
+    width: 400px;
 }
