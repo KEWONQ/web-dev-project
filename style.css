@@ -55,8 +55,13 @@
     height: 30px;
     width: 340px;
 }
+#emailTextBox:focus{
+    outline: none;
+    border-color: #5387d4;
+}
 #firstNameBox{
     display: flex;
+    font-family: 'Inter', sans-serif;
     border-radius: 5px;
     border-color: #dfdfdf;
     border-style: solid;
@@ -65,11 +70,13 @@
     width: 150px;
 }
 #firstNameBox:focus{
-    border-color: #3498db; /* Change to any color of your choice /
+    outline: none;
+    border-color: #5387d4; /* Change to any color of your choice /
     box-shadow: 0 0 5px #3498db;  / Optional: Add a subtle shadow for a glow effect */
 }
 #lastNameBox{
     display: flex;
+    font-family: 'Inter', sans-serif;
     border-radius: 5px;
     border-color: #dfdfdf;
     box-shadow: 0px 0px 40px 5px rgba(0, 0, 0, 0.08);
@@ -77,13 +84,22 @@
     height: 30px;
     width: 150px;
 }
+#lastNameBox:focus{
+    outline: none;
+    border-color: #5387d4;
+}
 #messageTextBox{
+    font-family: 'Inter', sans-serif;
     border-radius: 5px;
     border-color: #dfdfdf;
     border-style: solid;
     box-shadow: 0px 0px 40px 5px rgba(0, 0, 0, 0.08);
     height: 30px;
     width: 340px;
+}
+#messageTextBox:focus{
+    outline: none;
+    border-color: #5387d4;
 }
 #MESSAGE{
     color: #3c3c3c;
@@ -99,17 +115,24 @@
     padding-bottom: 10px;
 }
 #detailsTextBox{
+    vertical-align: top;
+    font-family: 'Inter', sans-serif;
     border-radius: 5px;
     border-color: #dfdfdf;
     border-style: solid;
     box-shadow: 0px 0px 40px 5px rgba(0, 0, 0, 0.08);
     width: 340px;
-    height: 100px;
+    height: 110px;
+}
+#detailsTextBox:focus{
+    outline: none;
+    border-color: #5387d4;
 }
 #DETAILS{
     color: #3c3c3c;
     font-size: 13px;
     font-weight: bold;
+    height: 130px;
     padding: 20px;
 }
 #sendBtn{
@@ -117,14 +140,20 @@
     color: #FFFFFF;
     background-color: #555efb;
     border-radius: 5px;
-    width: 356px;
+    width: 350px;
     font-size: 15px;
     font-weight: bold;
     box-shadow: 0px 0px 40px 5px rgba(0, 0, 0, 0.1);
     padding: 20px;
 }
+#sendBtn:hover{
+    cursor: pointer;
+    transition: color 0.5s;
+    background-color: #6971ff;
+}
 #btnContainer{
     padding: 20px;
+    padding-left: 23px;
 }
 #confirmText{
     color: #3d3d3d;
@@ -178,4 +207,14 @@
 }
 #ciAll{
     padding-left: 10px;
+}
+#contactText a {
+    text-decoration: none;
+    color: #7b7b7b;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+#contactText a:hover {
+    color: #5387d4;
 }
