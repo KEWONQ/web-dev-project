@@ -229,7 +229,7 @@
 }
 #tick{
     width: 30px;
-    pointer-events: none; /*doesn't allow the image to be clicked/*/
+    
 
 }
 #ciAll{
