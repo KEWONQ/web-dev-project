@@ -20,20 +20,10 @@
     padding-left: 5px;
     padding-right: 20px;
 }
-#LASTnames{
-    padding-left: 20px;
-}
 #asterisk{
     padding-left: 5px;
 }
-#FIRSTNAME{
-    display: flex;
-    color: #3c3c3c;
-    padding-bottom: 10px;
-    font-size: 13px;
-    font-weight: bold;
-}
-#LASTNAME{
+#NAME{
     display: flex;
     color: #3c3c3c;
     padding-bottom: 10px;
@@ -72,7 +62,7 @@
     outline: none;
     border-color: #5387d4;
 }
-#firstNameBox{
+#nameBox{
     display: flex;
     font-family: 'Inter', sans-serif;
     border-radius: 5px;
@@ -81,27 +71,12 @@
     box-shadow: 0px 0px 40px 5px rgba(0, 0, 0, 0.08);
     font-size: 15px;
     height: 35px;
-    width: 150px;
+    width: 340px;
 }
-#firstNameBox:focus{
+#nameBox:focus{
     outline: none;
     border-color: #5387d4; /* Change to any color of your choice /
     box-shadow: 0 0 5px #3498db;  / Optional: Add a subtle shadow for a glow effect */
-}
-#lastNameBox{
-    display: flex;
-    font-family: 'Inter', sans-serif;
-    border-radius: 5px;
-    border-color: #dfdfdf;
-    box-shadow: 0px 0px 40px 5px rgba(0, 0, 0, 0.08);
-    border-style: solid;
-    font-size: 15px;
-    height: 35px;
-    width: 150px;
-}
-#lastNameBox:focus{
-    outline: none;
-    border-color: #5387d4;
 }
 #messageTextBox{
     font-family: 'Inter', sans-serif;
@@ -212,7 +187,7 @@
     color: #7b7b7b;
     font-size: 13px;
     font-weight: bold;
-    padding-top: 4px;
+    padding-top: 7px;
     padding-left: 10px;
 }
 #CI{
@@ -226,11 +201,6 @@
 }
 #email{
     padding-bottom: 10px;
-}
-#tick{
-    width: 30px;
-    
-
 }
 #ciAll{
     padding-left: 10px;
@@ -252,5 +222,37 @@
     width: 440px;
     height: auto; 
     pointer-events: none; /*doesn't allow the image to be clicked/*/
-
+}
+.styled-checkbox {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    border: 1px solid #bebebe; 
+    border-radius: 50%; 
+    cursor: pointer;
+    background-color: #ffffff; 
+    transition: background-color 0.3s;
+    position: relative; 
+}
+.hidden-checkbox:checked + .styled-checkbox::before {
+    font-family: monospace,sans-serif;
+    content: '✓'; 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 15px; 
+    color: #ffffff;
+  
+}
+.hidden-checkbox:checked + .styled-checkbox {
+    background-color: #0f870f; 
+}
+#checkboxContainer{
+    padding-left: 6px;
+    padding-top: 4px;
+}
+/* Hide the default checkbox */
+.hidden-checkbox {
+    display: none;
 }

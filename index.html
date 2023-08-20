@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bali-Mushrooms</title>
+    <title>BALI-MUSHROOMS</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="/images/Icon.png">
     <link href="https://fonts.googleapis.com/css2?family=Inter&family=Press+Start+2P&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -16,16 +17,10 @@
                     <div id="inputContainer">
                         <div id="nameBoxes">
                             <div id="FIRSTnames">
-                                <div id="FIRSTNAME">FIRST NAME
+                                <div id="NAME">NAME
                                     <div id="asterisk" style="color: #ff0000;"> *</div>
                                 </div>
-                                <div><input type="text" id="firstNameBox" required></div>
-                            </div>
-                            <div id="LASTnames">
-                                <div id="LASTNAME">LAST NAME
-                                    <div id="asterisk" style="color: #ff0000;"> *</div>
-                                </div>
-                                <div><input type="text" id="lastNameBox" required></div>
+                                <div><input type="text" id="nameBox" required></div>
                             </div>
                         </div>
                         <div id="EMAIL">
@@ -52,7 +47,10 @@
                     </div>
                         <div id="conContainer">
                             <div id="confirmContainer">
-                            <img src="Images/Check_ring_light.png" id="tick" onclick="toggleImage()">
+                                <div id = "checkboxContainer">
+                                    <input type="checkbox" id="consent" name="consent" class="hidden-checkbox" required>
+                                    <label for="consent" class="styled-checkbox"></label>          
+                                </div>
                             <div id="confirmText">I agree to be contacted via my request.</div>
                         </div>
                     </div>
@@ -72,13 +70,15 @@
                             </div>
                             <div id="contactContainer">
                                 <div id="contactInfo"></div>
-                                <img src="Images/Phone.png" id="check">
-                                <div id="contactText">+62 877-5223-0828 +62881-0822-65439</div>
+                                <img src="Images/comment.png" id="check">
+                                <div id="contactText">+62 877-5223-0828</div>
                             </div>
                             <div id="contactContainer">
                                 <div id="contactInfo"></div>
-                                <img src="Images/Message.png" id="check">
-                                <div id="contactText">Example@testmail.com</div>
+                                <img src="Images/insta.png" id="check">
+                                <div id="contactText">
+                                    <a href="https://www.instagram.com/bali_mushrooms/">@Bali_Mushrooms</a>
+                                    </div>
                         </div>
                     </div>
                 </div>
