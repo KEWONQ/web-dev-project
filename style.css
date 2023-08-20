@@ -1,0 +1,256 @@
+#All{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+#form{
+    position: relative;
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+    width: 400px;
+    height: 875px;
+    padding-bottom: 40px;
+}
+#inputContainer{
+    padding-top: 80px;
+    padding-left: 5px;
+    padding-right: 20px;
+}
+#LASTnames{
+    padding-left: 20px;
+}
+#asterisk{
+    padding-left: 5px;
+}
+#FIRSTNAME{
+    display: flex;
+    color: #3c3c3c;
+    padding-bottom: 10px;
+    font-size: 13px;
+    font-weight: bold;
+}
+#LASTNAME{
+    display: flex;
+    color: #3c3c3c;
+    padding-bottom: 10px;
+    font-size: 13px;
+    font-weight: bold;
+}
+#EMAIL{
+    color: #3c3c3c;
+    font-size: 13px;
+    font-weight: bold;
+    height: 60px;
+    padding: 20px;
+    padding-bottom: 10px;
+}
+#nameBoxes{
+    display: flex;
+    border-radius: 5px;
+    height: 50px;
+    border-color: #dfdfdf;
+    justify-content: space-between;
+    padding: 20px;
+}
+#emailTextBox{
+    border-radius: 5px;
+    border-color: #dfdfdf;
+    border-style: solid;
+    box-shadow: 0px 0px 40px 5px rgba(0, 0, 0, 0.08);
+    font-size: 15px;
+    height: 35px;
+    width: 340px;
+}
+#email{
+    display: flex;
+}
+#emailTextBox:focus{
+    outline: none;
+    border-color: #5387d4;
+}
+#firstNameBox{
+    display: flex;
+    font-family: 'Inter', sans-serif;
+    border-radius: 5px;
+    border-color: #dfdfdf;
+    border-style: solid;
+    box-shadow: 0px 0px 40px 5px rgba(0, 0, 0, 0.08);
+    font-size: 15px;
+    height: 35px;
+    width: 150px;
+}
+#firstNameBox:focus{
+    outline: none;
+    border-color: #5387d4; /* Change to any color of your choice /
+    box-shadow: 0 0 5px #3498db;  / Optional: Add a subtle shadow for a glow effect */
+}
+#lastNameBox{
+    display: flex;
+    font-family: 'Inter', sans-serif;
+    border-radius: 5px;
+    border-color: #dfdfdf;
+    box-shadow: 0px 0px 40px 5px rgba(0, 0, 0, 0.08);
+    border-style: solid;
+    font-size: 15px;
+    height: 35px;
+    width: 150px;
+}
+#lastNameBox:focus{
+    outline: none;
+    border-color: #5387d4;
+}
+#messageTextBox{
+    font-family: 'Inter', sans-serif;
+    border-radius: 5px;
+    border-color: #dfdfdf;
+    border-style: solid;
+    box-shadow: 0px 0px 40px 5px rgba(0, 0, 0, 0.08);
+    font-size: 15px;
+    height: 35px;
+    width: 340px;
+}
+#messageTextBox:focus{
+    outline: none;
+    border-color: #5387d4;
+}
+#MESSAGE{
+    color: #3c3c3c;
+    font-size: 13px;
+    font-weight: bold;
+    height: 60px;
+    padding: 20px;
+}
+#message{
+    display: flex;
+    padding-bottom: 10px;
+}
+#details{
+    padding-bottom: 10px;
+}
+#detailsTextBox{
+    vertical-align: top;
+    resize: none;
+    font-family: 'Inter', sans-serif;
+    border-radius: 5px;
+    border-color: #dfdfdf;
+    border-style: solid;
+    border-width: 2px;
+    box-shadow: 0px 0px 40px 5px rgba(0, 0, 0, 0.08);
+    font-size: 15px;
+    width: 340px;
+    height: 110px;
+}
+#detailsTextBox:focus{
+    outline: none;
+    border-color: #5387d4;
+}
+#DETAILS{
+    color: #3c3c3c;
+    font-size: 13px;
+    font-weight: bold;
+    height: 130px;
+    padding: 20px;
+}
+#sendBtn{
+    border-width: 0px;
+    color: #FFFFFF;
+    background-color: #555efb;
+    border-radius: 5px;
+    width: 350px;
+    font-size: 15px;
+    font-weight: bold;
+    box-shadow: 0px 0px 40px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+#sendBtn:hover{
+    cursor: pointer;
+    transition: color 0.5s;
+    background-color: #6971ff;
+}
+#btnContainer{
+    padding: 20px;
+    padding-left: 23px;
+}
+#confirmText{
+    color: #3d3d3d;
+    padding-top: 7px;
+    font-size: 13px;
+    font-weight: bold;
+    padding-left: 7px;
+    padding-bottom: 3px;
+}
+#confirmContainer{
+    display: flex;
+    padding-left: 25px;
+}
+#conContainer{
+    height: 30px;
+}
+#check{
+    padding-left: 5px;
+    width: 30px;
+    pointer-events: none; /*doesn't allow the image to be clicked/*/
+}
+#divContainer{
+    padding: 13px;
+}
+#divider {
+    width: 360px;
+    height: 1.5px;
+    background-color: #e0e0e0; 
+}
+#contactContainer{
+    display: flex;
+    font-size: 18px;
+    padding: 12px;
+}
+#contactText{
+    color: #7b7b7b;
+    font-size: 13px;
+    font-weight: bold;
+    padding-top: 4px;
+    padding-left: 10px;
+}
+#CI{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    
+
+}
+#email{
+    padding-bottom: 10px;
+}
+#tick{
+    width: 30px;
+    
+
+}
+#ciAll{
+    padding-left: 10px;
+}
+#contactText a {
+    text-decoration: none;
+    color: #7b7b7b;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+#contactText a:hover {
+    color: #5387d4;
+}
+#logoBanner {
+    border-radius: 5px;
+    position: absolute;
+    top: 0;
+    left: -0px;
+    width: 440px;
+    height: auto; 
+    pointer-events: none; /*doesn't allow the image to be clicked/*/
+
+}
