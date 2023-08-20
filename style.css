@@ -33,13 +33,6 @@
     font-size: 13px;
     font-weight: bold;
 }
-#LASTNAME{
-    display: flex;
-    color: #3c3c3c;
-    padding-bottom: 10px;
-    font-size: 13px;
-    font-weight: bold;
-}
 #EMAIL{
     color: #3c3c3c;
     font-size: 13px;
@@ -87,21 +80,6 @@
     outline: none;
     border-color: #5387d4; /* Change to any color of your choice /
     box-shadow: 0 0 5px #3498db;  / Optional: Add a subtle shadow for a glow effect */
-}
-#lastNameBox{
-    display: flex;
-    font-family: 'Inter', sans-serif;
-    border-radius: 5px;
-    border-color: #dfdfdf;
-    box-shadow: 0px 0px 40px 5px rgba(0, 0, 0, 0.08);
-    border-style: solid;
-    font-size: 15px;
-    height: 35px;
-    width: 150px;
-}
-#lastNameBox:focus{
-    outline: none;
-    border-color: #5387d4;
 }
 #messageTextBox{
     font-family: 'Inter', sans-serif;
