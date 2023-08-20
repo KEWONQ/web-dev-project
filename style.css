@@ -34,14 +34,14 @@
     color: #3c3c3c;
     font-size: 13px;
     font-weight: bold;
-    height: 60px;
+    height: 55px;
     padding: 20px;
     padding-bottom: 10px;
 }
 #nameBoxes{
     display: flex;
     border-radius: 5px;
-    height: 50px;
+    height: 45px;
     border-color: #dfdfdf;
     justify-content: space-between;
     padding: 20px;
@@ -96,7 +96,7 @@
     color: #3c3c3c;
     font-size: 13px;
     font-weight: bold;
-    height: 60px;
+    height: 50px;
     padding: 20px;
 }
 #message{
