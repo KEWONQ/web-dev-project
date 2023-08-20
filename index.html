@@ -10,7 +10,7 @@
 </head>
 <body>
     <div id="All">
-        <div id="form">
+        <form id="form" name="contact form" method="POST" data-netlify="true">
             <div id="positioning">
                 <div id="container">
                     <img src="Images/Logo2.png" id="logoBanner">
@@ -20,30 +20,30 @@
                                 <div id="NAME">NAME
                                     <div id="asterisk" style="color: #ff0000;"> *</div>
                                 </div>
-                                <div><input type="text" id="nameBox" required></div>
+                                <div><input type="text" id="nameBox" name="name" required></div>
                             </div>
                         </div>
                         <div id="EMAIL">
                             <div id="email">EMAIL
                                 <div id="asterisk" style="color: #ff0000;"> *</div>
                             </div>
-                            <div><input type="text"  id="emailTextBox" required></div>
+                            <div><input type="email"  id="emailTextBox" name="email" required></div>
                         </div>
                         <div id="MESSAGE">
                             <div id="message">MESSAGE
                                 <div id="asterisk" style="color: #ff0000;"> *</div>
                             </div>
-                            <div><input type="text"  id="messageTextBox" required></div>
+                            <div><input type="text"  id="messageTextBox" name="message" required></div>
                         </div>
                         <div id="DETAILS">
                             <div id="details">ADDITIONAL DETAILS</div>
                             <div>
-                                <textarea id="detailsTextBox"></textarea>
+                                <textarea id="detailsTextBox" name="additional details"></textarea>
                             </div>
                         </div>
                     </div>
                     <div id="btnContainer">
-                        <button id="sendBtn">Send Message</button>
+                        <button type="submit" id="sendBtn">Send Message</button>
                     </div>
                         <div id="conContainer">
                             <div id="confirmContainer">
@@ -83,7 +83,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </form>
     </div>
     <script src="script.js"></script>
 </body>
