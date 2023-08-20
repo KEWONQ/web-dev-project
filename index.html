@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bali-Mushrooms</title>
+    <title>BALI-MUSHROOMS</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="/images/Icon.png">
     <link href="https://fonts.googleapis.com/css2?family=Inter&family=Press+Start+2P&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -46,7 +47,10 @@
                     </div>
                         <div id="conContainer">
                             <div id="confirmContainer">
-                            <img src="Images/Check_ring_light.png" id="tick" onclick="toggleImage()">
+                                <div id = "checkboxContainer">
+                                    <input type="checkbox" id="consent" name="consent" class="hidden-checkbox" required>
+                                    <label for="consent" class="styled-checkbox"></label>          
+                                </div>
                             <div id="confirmText">I agree to be contacted via my request.</div>
                         </div>
                     </div>
@@ -67,12 +71,14 @@
                             <div id="contactContainer">
                                 <div id="contactInfo"></div>
                                 <img src="Images/comment.png" id="check">
-                                <div id="contactText">+62 877-5223-0828 +62881-0822-65439</div>
+                                <div id="contactText">+62 877-5223-0828</div>
                             </div>
                             <div id="contactContainer">
                                 <div id="contactInfo"></div>
                                 <img src="Images/insta.png" id="check">
-                                <div id="contactText">@Bali_Mushrooms</div>
+                                <div id="contactText">
+                                    <a href="https://www.instagram.com/bali_mushrooms/">@Bali_Mushrooms</a>
+                                    </div>
                         </div>
                     </div>
                 </div>

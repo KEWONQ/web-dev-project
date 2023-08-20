@@ -20,9 +20,6 @@
     padding-left: 5px;
     padding-right: 20px;
 }
-#LASTnames{
-    padding-left: 20px;
-}
 #asterisk{
     padding-left: 5px;
 }
@@ -190,7 +187,7 @@
     color: #7b7b7b;
     font-size: 13px;
     font-weight: bold;
-    padding-top: 4px;
+    padding-top: 7px;
     padding-left: 10px;
 }
 #CI{
@@ -204,11 +201,6 @@
 }
 #email{
     padding-bottom: 10px;
-}
-#tick{
-    width: 30px;
-    
-
 }
 #ciAll{
     padding-left: 10px;
@@ -230,5 +222,37 @@
     width: 440px;
     height: auto; 
     pointer-events: none; /*doesn't allow the image to be clicked/*/
-
+}
+.styled-checkbox {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    border: 1px solid #bebebe; 
+    border-radius: 50%; 
+    cursor: pointer;
+    background-color: #ffffff; 
+    transition: background-color 0.3s;
+    position: relative; 
+}
+.hidden-checkbox:checked + .styled-checkbox::before {
+    font-family: monospace,sans-serif;
+    content: '✓'; 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 15px; 
+    color: #ffffff;
+  
+}
+.hidden-checkbox:checked + .styled-checkbox {
+    background-color: #0f870f; 
+}
+#checkboxContainer{
+    padding-left: 6px;
+    padding-top: 4px;
+}
+/* Hide the default checkbox */
+.hidden-checkbox {
+    display: none;
 }
