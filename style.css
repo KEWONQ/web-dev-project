@@ -26,7 +26,7 @@
 #asterisk{
     padding-left: 5px;
 }
-#FIRSTNAME{
+#NAME{
     display: flex;
     color: #3c3c3c;
     padding-bottom: 10px;
@@ -72,7 +72,7 @@
     outline: none;
     border-color: #5387d4;
 }
-#firstNameBox{
+#nameBox{
     display: flex;
     font-family: 'Inter', sans-serif;
     border-radius: 5px;
@@ -81,9 +81,9 @@
     box-shadow: 0px 0px 40px 5px rgba(0, 0, 0, 0.08);
     font-size: 15px;
     height: 35px;
-    width: 150px;
+    width: 340px;
 }
-#firstNameBox:focus{
+#nameBox:focus{
     outline: none;
     border-color: #5387d4; /* Change to any color of your choice /
     box-shadow: 0 0 5px #3498db;  / Optional: Add a subtle shadow for a glow effect */
