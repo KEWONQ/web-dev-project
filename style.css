@@ -146,6 +146,9 @@
     transition: color 0.5s;
     background-color: #6971ff;
 }
+#sendBtn:active{
+    background-color: #797eff;
+}
 #btnContainer{
     padding: 20px;
     padding-left: 23px;
